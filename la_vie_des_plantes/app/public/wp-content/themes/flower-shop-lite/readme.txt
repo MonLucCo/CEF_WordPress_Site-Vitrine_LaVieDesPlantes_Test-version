@@ -3,8 +3,8 @@
 **Contributors:** sonalsinha21
 **Requires at least:** 5.0
 **Requires PHP:**  7.4
-**Tested up to:** 6.5
-**Version:** 1.9
+**Tested up to:** 6.7
+**Version:** 1.10
 **License:** GPL-2.0-or-later
 **License URI:** https://www.gnu.org/licenses/license-list.html#GPLv2   
 **Tags:** two-columns,right-sidebar,custom-background,custom-colors,custom-menu,sticky-post,theme-options,threaded-comments,e-commerce,blog
@@ -94,6 +94,9 @@ License URL: http://www.gnu.org/licenses/gpl-2.0.html
 For any help you can mail us at support[at]sktthemes.com
 
 ## Changelog
+Version 1.10
+i)  Removed footer link.
+
 Version 1.9
 i)   Compatibility check with WordPress version 6.5
 ii)  Footer credentials tweaked
