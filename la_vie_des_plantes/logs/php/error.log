@@ -63,3 +63,28 @@ Stack trace:
 #15 C:\Users\lucpe\Local Sites\CEF_WordPress_Site-Vitrine_LaVieDesPlantes_Test-version\la_vie_des_plantes\app\public\index.php(17): require('C:\\Users\\lucpe\\...')
 #16 {main}
   thrown in C:\Users\lucpe\Local Sites\CEF_WordPress_Site-Vitrine_LaVieDesPlantes_Test-version\la_vie_des_plantes\app\public\wp-content\plugins\elementor\includes\utils.php on line 816
+[24-Dec-2024 15:41:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\Users\lucpe\Local Sites\CEF_WordPress_Site-Vitrine_LaVieDesPlantes_Test-version\la_vie_des_plantes\app\public\wp-content\plugins\elementor\modules\ai\module.php:231
+Stack trace:
+#0 C:\Users\lucpe\Local Sites\CEF_WordPress_Site-Vitrine_LaVieDesPlantes_Test-version\la_vie_des_plantes\app\public\wp-includes\class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 C:\Users\lucpe\Local Sites\CEF_WordPress_Site-Vitrine_LaVieDesPlantes_Test-version\la_vie_des_plantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\Users\lucpe\Local Sites\CEF_WordPress_Site-Vitrine_LaVieDesPlantes_Test-version\la_vie_des_plantes\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\lucpe\Local Sites\CEF_WordPress_Site-Vitrine_LaVieDesPlantes_Test-version\la_vie_des_plantes\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown in C:\Users\lucpe\Local Sites\CEF_WordPress_Site-Vitrine_LaVieDesPlantes_Test-version\la_vie_des_plantes\app\public\wp-content\plugins\elementor\modules\ai\module.php on line 231
+[24-Dec-2024 17:23:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\Users\lucpe\Local Sites\CEF_WordPress_Site-Vitrine_LaVieDesPlantes_Test-version\la_vie_des_plantes\app\public\wp-content\plugins\elementor\modules\ai\module.php:231
+Stack trace:
+#0 C:\Users\lucpe\Local Sites\CEF_WordPress_Site-Vitrine_LaVieDesPlantes_Test-version\la_vie_des_plantes\app\public\wp-includes\class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 C:\Users\lucpe\Local Sites\CEF_WordPress_Site-Vitrine_LaVieDesPlantes_Test-version\la_vie_des_plantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\Users\lucpe\Local Sites\CEF_WordPress_Site-Vitrine_LaVieDesPlantes_Test-version\la_vie_des_plantes\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\lucpe\Local Sites\CEF_WordPress_Site-Vitrine_LaVieDesPlantes_Test-version\la_vie_des_plantes\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown in C:\Users\lucpe\Local Sites\CEF_WordPress_Site-Vitrine_LaVieDesPlantes_Test-version\la_vie_des_plantes\app\public\wp-content\plugins\elementor\modules\ai\module.php on line 231
+[24-Dec-2024 17:29:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\Users\lucpe\Local Sites\CEF_WordPress_Site-Vitrine_LaVieDesPlantes_Test-version\la_vie_des_plantes\app\public\wp-content\plugins\elementor\modules\ai\module.php:231
+Stack trace:
+#0 C:\Users\lucpe\Local Sites\CEF_WordPress_Site-Vitrine_LaVieDesPlantes_Test-version\la_vie_des_plantes\app\public\wp-includes\class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 C:\Users\lucpe\Local Sites\CEF_WordPress_Site-Vitrine_LaVieDesPlantes_Test-version\la_vie_des_plantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\Users\lucpe\Local Sites\CEF_WordPress_Site-Vitrine_LaVieDesPlantes_Test-version\la_vie_des_plantes\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\lucpe\Local Sites\CEF_WordPress_Site-Vitrine_LaVieDesPlantes_Test-version\la_vie_des_plantes\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown in C:\Users\lucpe\Local Sites\CEF_WordPress_Site-Vitrine_LaVieDesPlantes_Test-version\la_vie_des_plantes\app\public\wp-content\plugins\elementor\modules\ai\module.php on line 231
+[27-Dec-2024 10:23:50 UTC] WordPress database error Lock wait timeout exceeded; try restarting transaction for query UPDATE `wp_options` SET `option_value` = '1735214773.9478120803833007812500' WHERE `option_name` = '_transient_doing_cron' made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, _wp_cron, spawn_cron, set_transient, update_option
