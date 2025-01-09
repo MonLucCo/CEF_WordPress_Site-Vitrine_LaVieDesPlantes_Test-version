@@ -1,8 +1,10 @@
 # CEF_WordPress_Site-Vitrine_LaVieDesPlantes_Test-version
 
-Etablissement en WordPress d'un site vitrine selon les spécifications du CEF.
+Etablissement en WordPress (WP) d'un site vitrine selon les spécifications du CEF.
 
-Ce projet est développé localement avec Local WP. Ce guide vous expliquera comment configurer et utiliser ce projet sur votre machine locale.
+Ce projet est développé localement avec `Local WP`. Ce guide vous expliquera comment configurer et utiliser ce projet sur votre machine locale.
+
+Pour visualiser rapidement le résultat du projet avant installation, des captures d'écran des principaux écrans du site (les pages du site WP) sont disponibles dans le dossier `documents/screenshots` du dépôt GitHub.
 
 ## Sommaire
 
@@ -18,6 +20,9 @@ Ce projet est développé localement avec Local WP. Ce guide vous expliquera com
     - [Accéder à l'admin WordPress](#accéder-à-ladmin-wordpress)
     - [Développement](#développement)
     - [Déploiement](#déploiement)
+  - [Information sur la Base de Données](#information-sur-la-base-de-données)
+  - [Plugins Utilisés](#plugins-utilisés)
+  - [Thème Utilisé](#thème-utilisé)
   - [Contribuer](#contribuer)
 
 ## Prérequis
@@ -70,6 +75,23 @@ Utilisez Visual Studio Code pour éditer les fichiers de votre projet. Vous pouv
 ### Déploiement
 
 Pour déployer votre site sur un hébergeur, vous pouvez utiliser des plugins comme [Duplicator](https://wordpress.org/plugins/duplicator/) ou [All-in-One WP Migration](https://wordpress.org/plugins/all-in-one-wp-migration/) pour exporter et importer votre site.
+
+## Information sur la Base de Données
+
+La base de données du projet est incluse dans le fichier `local.sql.gzip` situé dans le dossier `database` du dépôt GitHub. Suivez les instructions de la section "Installation" pour importer la base de données.
+
+## Plugins Utilisés
+
+Les principaux plugins utilisés dans ce projet sont :
+
+- **SKT Templates**
+- **Elementor**
+- **WPForms Lite**
+- **WooCommerce**
+
+## Thème Utilisé
+
+Le thème utilisé pour ce projet est **Flower Shop Lite**. Tous les autres thèmes ont été supprimés pour ne garder que le thème du projet.
 
 ## Contribuer
 

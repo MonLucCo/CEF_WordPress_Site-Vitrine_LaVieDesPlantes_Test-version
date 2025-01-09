@@ -3,7 +3,7 @@
  * Plugin Name: SKT Templates
  * Plugin URI: https://www.sktthemes.org/shop/ready-to-import-wordpress-sites/
  * Description: SKT Templates is an Elementor and Gutenberg themes library and allows you to select from over 100s of designs to choose from. All you need to do is view the demo and then select import and install. It takes care of the importing and allows you to edit the template from within your dashboard. It works with any popular theme or you can choose to use any theme from our <a href="https://www.sktthemes.org/product-category/free-wordpress-themes/" rel="nofollow ugc">SKT Themes free.</a> These templates allow you to import them into your existing website and edit them and use them to build professional websites. Importing a single page template is very easy and you can do it on your existing WordPress website as well.
- * Version: 6.20
+ * Version: 6.21
  * Author: SKT Themes
  * Author URI: https://www.sktthemes.org
  * Text Domain: skt-templates

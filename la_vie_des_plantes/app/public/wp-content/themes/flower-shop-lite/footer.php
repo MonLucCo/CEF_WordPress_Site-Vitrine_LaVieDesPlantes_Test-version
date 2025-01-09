@@ -66,7 +66,13 @@
          <div class="copyright-wrapper">
         	<div class="container">
            		 <div class="copyright-txt">&nbsp;</div>
-            	 <div class="design-by"><?php bloginfo('name'); ?> <?php esc_html_e('Theme By ','flower-shop-lite');?><?php esc_html_e('SKT Themes','flower-shop-lite'); ?></div>
+            	 <div class="design-by"><?php bloginfo('name'); ?> <?php esc_html_e('Theme By ','flower-shop-lite');?><?php if( is_home() && is_front_page() || is_home() || is_front_page()) {?>
+        <a href="<?php echo esc_url('https://www.sktthemes.org/shop/free-shop-wordpress-theme/');?>" target="_blank">
+        <?php esc_html_e('Flower Shop Lite','flower-shop-lite'); ?>
+        </a>
+        <?php } else {?>
+        <?php esc_html_e('Flower Shop Lite','flower-shop-lite'); ?>
+        <?php } ?></div>
                  <div class="clear"></div>
             </div>           
         </div>

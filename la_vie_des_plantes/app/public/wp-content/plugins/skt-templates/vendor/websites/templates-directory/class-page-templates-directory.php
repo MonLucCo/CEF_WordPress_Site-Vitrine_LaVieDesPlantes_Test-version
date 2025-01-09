@@ -386,6 +386,15 @@ if ( ! class_exists( '\SktThemes\PageTemplatesDirectory' ) ) {
 				'required_plugins' => array( 'elementor' => array( 'title' => __( 'Elementor Page Builder', 'skt-templates' ) ) ),
 			);
 			$templates_list = array(
+				'buther-lite-elementor'              => array(
+					'title'       => __( 'SKT Butcher Lite', 'skt-templates' ),
+					'description' => __( 'It downloads from our website sktthemes.org, once you do it you will get the exact preview like shown in the demo. Steps after downloading the theme: Upload it via appearance>themes>add new>upload theme zip file and activate the theme.', 'skt-templates' ),
+					'theme_url'   => esc_url('https://www.sktthemes.org/shop/free-meat-shop-wordpress-theme/'),					
+					'demo_url'    => esc_url('https://demosktthemes.com/free/butcher/'),
+					'screenshot'  => esc_url('https://demosktthemes.com/free/butcher/free-butcher.jpg'),
+					'import_file' => esc_url('https://demosktthemes.com/free/butcher/free-butcher.json'),
+					'keywords'    => __( ' butcher, meat, steakhouse, boner, mutton, chicken, fish, slaughter, Butcher', 'skt-templates' ),
+				),			
 				'lights-elementor'              => array(
 					'title'       => __( 'SKT Lights', 'skt-templates' ),
 					'description' => __( 'It downloads from our website sktthemes.org, once you do it you will get the exact preview like shown in the demo. Steps after downloading the theme: Upload it via appearance>themes>add new>upload theme zip file and activate the theme.', 'skt-templates' ),
@@ -1742,15 +1751,6 @@ if ( ! class_exists( '\SktThemes\PageTemplatesDirectory' ) ) {
 					'screenshot'  => esc_url('https://demosktthemes.com/free/haircut/free-haircut.jpg'),
 					'import_file' => esc_url('https://demosktthemes.com/free/haircut/free-haircut.json'),
 					'keywords'    => __( ' salon, beauty, nails, manicure, pedicure, parlor, spa, hairdresser, barber, soap, glamour, fashion, grace, charm, looks, style, mud bath, oxygen therapy, aromatherapy, facial, foot, skin care, hair coloring, shampoo, razors, grooming, beard, cosmetology, CutsnStyle, hair cut, cutting saloon, saloon', 'skt-templates' ),
-				),
-				'buther-lite-elementor'              => array(
-					'title'       => __( 'Butcher', 'skt-templates' ),
-					'description' => __( 'It downloads from our website sktthemes.org, once you do it you will get the exact preview like shown in the demo. Steps after downloading the theme: Upload it via appearance>themes>add new>upload theme zip file and activate the theme.', 'skt-templates' ),
-					'theme_url'   => esc_url('https://www.sktthemes.org/shop/free-meat-shop-wordpress-theme/'),					
-					'demo_url'    => esc_url('https://demosktthemes.com/free/butcher/'),
-					'screenshot'  => esc_url('https://demosktthemes.com/free/butcher/free-butcher.jpg'),
-					'import_file' => esc_url('https://demosktthemes.com/free/butcher/free-butcher.json'),
-					'keywords'    => __( ' butcher, meat, steakhouse, boner, mutton, chicken, fish, slaughter, Butcher', 'skt-templates' ),
 				),
 				'architect-lite-elementor'              => array(
 					'title'       => __( 'Architect', 'skt-templates' ),
